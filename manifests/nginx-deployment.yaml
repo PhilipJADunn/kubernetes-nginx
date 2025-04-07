@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 658251713809.dkr.ecr.eu-west-1.amazonaws.com/philips-nginx:latest  #Make this your ECR repo
+        image: 658251713809.dkr.ecr.eu-west-1.amazonaws.com/philips-nginx:latest
         ports:
         - containerPort: 80
 ---

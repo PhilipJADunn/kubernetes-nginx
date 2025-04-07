@@ -1,4 +1,4 @@
-module "ecs" {
+module "kubernetes" {
   source          = "../../../modules/kubernetes"
   vpc_id          = var.vpc_id
   private_subnets = var.private_subnets
